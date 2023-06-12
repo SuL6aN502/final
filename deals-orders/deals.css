@@ -1,13 +1,44 @@
-/* .nav2{
+.nav2{
+    display: flex;
     border: 2px solid black;
-    width: 20%;
+    width: 90%;
+    height: 5vh;
+    justify-content: space-between;
+    margin: auto;
 }
+
 .nav2-child{
     border: 2px solid green;
-    width: 20%;
+    width: 30%;
 }
+
 .button{
     border: 2px solid blue;
-    width: 20%;
+    width: 10%;
+}
 
-} */
+
+.cards{
+    display: flex;
+    /* border: 4px solid black; */
+    width: 90%;
+    height: 40vh;
+    gap: 6%;
+    margin: auto;
+}
+
+.cards img{
+    width: 60%;
+    border-radius: 20%;
+}
+
+.card{
+    border: 4px solid rgb(21, 19, 60);
+    border-radius: 10%;
+    padding: 1%;
+    /* background-color: rgb(115, 119, 123); */
+}
+
+.card h2, p{
+    text-align: right;
+}
