@@ -9,7 +9,7 @@
 /* القائمة العلوية */
 header{
     position: fixed;
-    /* background-color: #15133C; */
+    background-color: #15133C;
     height: 12%;
     width: 100%;
     display: flex;
@@ -66,6 +66,32 @@ nav a:hover{
     transition: 0.5s;
     color: #000;
 } 
-.Settings{display: flex;border: #15133C solid 1px;justify-content: center;
-    align-items: center;
+.container{
+    display: flex;
+justify-content:    center;
+align-items: flex-start;
+margin-top:5%;
+border:#15133C solid 7px;
 }
+.Setting{}
+.Company{}
+.History{align-items: center;color: white;}
+.pfp img{border-radius: 100%;
+border:#15133C;margin-right: 10%;justify-content: start;}
+.username{margin-left: 45.3vw;
+/* background-color: #15133C; */
+color: white;
+display: inline-block;
+border-radius: 1%;
+}
+.email{margin-left: 45vw;
+    /* background-color: #15133C; */
+    color: white;
+    display: inline-block;
+    border-radius: 1%;
+
+}
+.Friends{margin-left: 94%;
+/* background-color: #15133C; */
+color: white;}
+body{background-color:#201d55;}
