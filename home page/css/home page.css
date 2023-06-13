@@ -12,7 +12,7 @@
 /* القسم الاول */
 .sec1{
     width: 100%;
-    height: 620px;
+    height: 550px;
     display: flex;
     flex-direction: row;
     justify-content:space-around ;
@@ -51,47 +51,74 @@ font-family: 'Aref Ruqaa', serif;
     justify-content:center;
     align-items:center;
     gap: 25px;
-
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    gap: 10px;
+}
+.cardsA{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+}
+.cardsA-li{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 10px;
+}
+.cardsB{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    gap: 10px;;
 }
 .card{
-    width: 20%;
-    height: 250px;
-    background-color: #EC994B;
-    border-radius: 20px;
-    transition: 0.5s;
+    background-color: #73777B;
+    border-radius: 30px;
 }
 .card1{
-    width: 30%;
-    height: 400px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.card1 img{
+    height: 70%;
+    margin: 10px 0px 0px 0px;
+}
+.card1 h2{
+    text-align: center;
+}
+.card1 p{
+text-align: center;
+width: 90%;
 }
 .card2{
-    width: 30%;
-    height: 400px;
+    width: 50%;
+    height: 100%;
 }
-.right-card{}
-.cardA{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    justify-content:center;
-    align-items: center;
-    margin: 5% 0% 0% 0%;
-    transition: 0.5s;
+.card3{
+    width: 100%;
+    height: 100%;
 }
-.cardB{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    width: 90%;
-    transition: 0.5s;
+.card4{
+    width: 100%;
+    height: 100%;
 }
-.bigcard{
-    width:95%;
-    height: 200px;
-    background-color: #EC994B;
-    border-radius: 20px;
-    transition: 0.5s;
+.card5{
+    width: 100%;
+    height: 100%;
+}
+.card6{
+    width: 20%;
+    height: 100%;
 }
