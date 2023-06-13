@@ -68,13 +68,30 @@ nav a:hover{
 } 
 .container{
     display: flex;
-justify-content:end;
+justify-content:    center;
 align-items: flex-start;
 margin-top:5%;
-border: red solid 1px;
+border:#15133C solid 7px;
 }
 .Setting{}
 .Company{}
-.History{}
+.History{align-items: center;color: white;}
 .pfp img{border-radius: 100%;
-border: red;margin-right: 10%;}
+border:#15133C;margin-right: 10%;justify-content: start;}
+.username{margin-left: 45.3vw;
+/* background-color: #15133C; */
+color: white;
+display: inline-block;
+border-radius: 1%;
+}
+.email{margin-left: 45vw;
+    /* background-color: #15133C; */
+    color: white;
+    display: inline-block;
+    border-radius: 1%;
+
+}
+.Friends{margin-left: 94%;
+/* background-color: #15133C; */
+color: white;}
+body{background-color:#201d55;}
