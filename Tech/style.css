@@ -73,6 +73,7 @@ align-items: flex-start;
 margin-top:5%;
 border:#15133C solid 7px;
 }
+body{color: white;}
 .Setting{}
 .Company{}
 .History{align-items: center;color: white;}
