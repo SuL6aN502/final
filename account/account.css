@@ -9,7 +9,7 @@
 /* القائمة العلوية */
 header{
     position: fixed;
-    /* background-color: #15133C; */
+    background-color: #15133C;
     height: 12%;
     width: 100%;
     display: flex;
@@ -66,6 +66,15 @@ nav a:hover{
     transition: 0.5s;
     color: #000;
 } 
-.Settings{display: flex;border: #15133C solid 1px;justify-content: center;
-    align-items: center;
+.container{
+    display: flex;
+justify-content:end;
+align-items: flex-start;
+margin-top:5%;
+border: red solid 1px;
 }
+.Setting{}
+.Company{}
+.History{}
+.pfp img{border-radius: 100%;
+border: red;margin-right: 10%;}
