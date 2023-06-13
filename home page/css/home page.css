@@ -68,11 +68,11 @@ font-family: 'Aref Ruqaa', serif;
     width: 30%;
     height: 400px;
 }
-
+.right-card{}
 .cardA{
     width: 90%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 5px;
     justify-content:center;
     align-items: center;
