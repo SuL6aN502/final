@@ -1,24 +1,52 @@
     /* second nav bar  */
     .nv2 {
         display: flex;
-        border: 2px solid rgb(173, 146, 146);
+        /* border: 2px solid rgb(173, 146, 146); */
         width: 90%;
-        height: 5vh;
+        height: 12vh;
         justify-content: space-between;
+        align-items: center;
         margin: auto;
-        margin-top: 6%;
+        margin-top: 9%;
+        background-color: antiquewhite;
     }
 
     .nv2-child {
-        border: 2px solid green;
-        width: 30%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        /* border: 2px solid green; */
+        width: 70%;
+    }
+
+    .nv2-child a{
+        text-decoration: none;
+        font-size: larger;
+        color: black;
+        border: 2px solid black;
+        width: 15%;
+        text-align: center;
+        height: 7vh;
+        border-radius: 5%;
     }
 
     .button {
-        border: 2px solid blue;
+        border: 2px solid black;
+        border-radius: 5%;
         width: 10%;
+        text-align: center;
+        height: 7vh;
     }
 
+    .button a {
+        text-decoration: none;
+        color: black;
+        font-size: larger;
+    }
+    .card a:hover{
+        transition: 300ms;
+        color: rgb(236, 153, 75)
+    }
     /* cards */
 
     .cards {
