@@ -78,20 +78,50 @@ border:#15133C solid 7px;
 .History{align-items: center;color: white;}
 .pfp img{border-radius: 100%;
 border:#15133C;margin-right: 10%;justify-content: start;}
-.username{margin-left: 45.3vw;
+.user{margin-left: 45.3vw;
 /* background-color: #15133C; */
 color: white;
 display: inline-block;
 border-radius: 1%;
+margin-right: 40%;
 }
-.email{margin-left: 45vw;
+.mail{
+    margin-right: -6%;
     /* background-color: #15133C; */
     color: white;
     display: inline-block;
     border-radius: 1%;
-
+margin-top: 1%;
 }
-.Friends{margin-left: 94%;
+.Friends{margin-left: 6%;
 /* background-color: #15133C; */
 color: white;}
 body{background-color:#201d55;}
+
+.Bio{margin-left: 86.6%;
+    /* background-color: #15133C; */
+    color: white;}
+    body{background-color:#201d55;}
+    body{text-align: center;}
+    
+
+      .username{
+        border-top:#73777B solid  1px;
+            width:1440px;
+            margin-left: 0%;
+        }
+        main h1:hover{
+            color: #EC994B;
+            transition: 0.2s ease-in;
+        }
+        .username{
+            border-top:#73777B solid  1px;
+                width:1440px;
+                margin-left: 0%;
+            }
+            .Between{
+                border-top:#73777B solid  1px;
+                    width:1440px;
+                    margin-left: 0%;
+                }
+                .Bio-text{color: white;}
