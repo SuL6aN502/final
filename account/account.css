@@ -147,7 +147,7 @@ nav a:hover{
     color: #000;
 } 
 
-.History{text-align:right;color: white;}
+.History{text-align:right;color: white;margin-right: 17%;}
 .pfp img{border-radius: 100%;
 border:#15133C;margin-right: 10%;justify-content: start;}
 .user{margin-left: 45.3vw;

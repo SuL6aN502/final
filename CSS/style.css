@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@200&family=Changa:wght@500;600&family=Katibeh&family=Tajawal:wght@500&display=swap');
 body{
-background-color: #15133C
-
-
-;
+background-color: #15133C;
 
 }
 
@@ -92,4 +89,8 @@ border-radius: 30px;
 
 
 }  
+button a{
+    color: white;
+    text-decoration: none;
+    }
 
