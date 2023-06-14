@@ -37,6 +37,8 @@ text-align: center;
 h4{
     text-align: center;
     border-radius: 30px;
+    height: 20px;
+
 }
 form{
 width: 300px;
@@ -76,7 +78,7 @@ margin-top: 10px;
 
 }
 .para-2 a{
-color:red
+color: rgb(47, 26, 154);
 
 
 }
