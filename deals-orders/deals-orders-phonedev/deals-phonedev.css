@@ -29,6 +29,7 @@
         text-align: center;
         height: 7vh;
         border-radius: 5%;
+        padding-top: 0.5%;
     }
 
     .button {
@@ -37,6 +38,7 @@
         width: 10%;
         text-align: center;
         height: 7vh;
+        padding-top: 0.5%;
     }
 
     .button a {
