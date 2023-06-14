@@ -1,97 +1,103 @@
 body{
-background-color: #15133C
-
-
-;
-font-family: "roboto", sans-serif;
-
-}
-
-
-.signup-box{
-
-width: 360px;
-height: 620px;
-margin: auto;
-background-color: #73777B
-
-;
-border-radius: 3px;
-border-radius: 30px;
-}
-.login-box{
-width: 360px;
-height: 315px;
-margin: auto;
-border-radius: 10%;
-background-color: #73777B
-
-
-}
-
-
-h1{
-text-align: center;
-
-}
-h4{
-    text-align: center;
+    background-color: #15133C
+    
+    
+    ;
+    font-family: "roboto", sans-serif;
+    
+    }
+    
+    
+    .signup-box{
+    
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: #73777B
+    
+    ;
+    border-radius: 3px;
     border-radius: 30px;
-    height: 20px;
-
-}
-form{
-width: 300px;
-margin-left: 20px;
-text-align: right;
-
-}
-form label{
-display: flex;
-margin-top: 20px;
-font-size: 18px;
-flex-direction: row-reverse;
-
-}
-form input{
-width: 100%;
-padding: 5%;
-border: none;
-border: 1px solid rgb(199, 196, 196);
-border-radius: 30px;
-outline: none;
-
-}
-
-
-p{
-text-align: center;
-padding-top: 20px;
-
-}
-.para-2{
-text-align: center;
-color: white;
-font-size: 15px;
-margin-top: 10px;
-
-
-}
-.para-2 a{
-color: rgb(47, 26, 154);
-
-
-}
-button{
-width: 320px;
-height: 40px;
-text-align: center;
-color: white;
-margin-top: 10px;
-background-color: #15133C;
-font-size: large;
-border-radius: 30px;
-
-
-}  
-
+    }
+    .login-box{
+    width: 360px;
+    height: 315px;
+    margin: auto;
+    border-radius: 10%;
+    background-color: #73777B
+    
+    
+    }
+    
+    
+    h1{
+    text-align: center;
+    
+    }
+    h4{
+        text-align: center;
+        border-radius: 30px;
+        height: 20px;
+    
+    }
+    form{
+    width: 300px;
+    margin-left: 20px;
+    text-align: right;
+    
+    }
+    form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    flex-direction: row-reverse;
+    
+    }
+    form input{
+    width: 100%;
+    padding: 5%;
+    border: none;
+    border: 1px solid rgb(199, 196, 196);
+    border-radius: 30px;
+    outline: none;
+    
+    }
+    
+    
+    p{
+    text-align: center;
+    padding-top: 20px;
+    
+    }
+    .para-2{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    
+    
+    }
+    .para-2 a{
+    color: rgb(47, 26, 154);
+    
+    
+    }
+    button{
+    width: 320px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    background-color: #15133C;
+    font-size: large;
+    border-radius: 30px;
+    
+    
+    }
+    
+    button a{
+        color: white;
+        text-decoration: none;
+        }
+    
+    
