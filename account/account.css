@@ -73,25 +73,25 @@ align-items: flex-start;
 margin-top:5%;
 border:#15133C solid 7px;
 }
-.Setting{}
-.Company{}
-.History{align-items: center;color: white;}
+
+.History{text-align:right;color: white;}
 .pfp img{border-radius: 100%;
 border:#15133C;margin-right: 10%;justify-content: start;}
 .user{margin-left: 45.3vw;
 /* background-color: #15133C; */
 color: white;
-display: inline-block;
+display: flex;
 border-radius: 1%;
-margin-right: 40%;
-}
+justify-content: start;
+margin-left: 41%;}
 .mail{
     margin-right: -6%;
     /* background-color: #15133C; */
     color: white;
     display: inline-block;
     border-radius: 1%;
-margin-top: 1%;
+margin-top: 0.5%;
+margin-right:1%;
 }
 .Friends{margin-left: 6%;
 /* background-color: #15133C; */
@@ -124,4 +124,5 @@ body{background-color:#201d55;}
                     width:1440px;
                     margin-left: 0%;
                 }
-                .Bio-text{color: white;}
+                .Bio-text{color: white;text-align: right;
+                margin-right: 0.5%;}
