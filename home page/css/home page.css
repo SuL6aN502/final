@@ -3,6 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
 }
 @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@200&family=Changa:wght@500;600&family=Katibeh&family=Tajawal:wght@500&display=swap');
 
@@ -12,7 +13,7 @@
 /* القسم الاول */
 .sec1{
     width: 100%;
-    height: 620px;
+    height: 550px;
     display: flex;
     flex-direction: row;
     justify-content:space-around ;
@@ -34,64 +35,271 @@ font-family: 'Aref Ruqaa', serif;
 /* القسم الثاني */
 .sec2{
     width: 100%;
-    height: 820px;
+    height: 1120px;
     display: flex;
     flex-direction: row;
     justify-content:center;
     align-items: start;
     transition: 0.5s;
 }
+.card a{
+    width: 100%;
+    height: 100%;
+}
 .dsec2{
-    width: 90%;
-    height: 800px;
+    width: 95%;
+    height: 1100px;
     background-color: #15133C;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items:center;
-    gap: 25px;
-
+    gap: 40px;
 }
-.card{
-    width: 20%;
-    height: 250px;
-    background-color: #EC994B;
-    border-radius: 20px;
-    transition: 0.5s;
-}
-.card1{
-    width: 30%;
-    height: 400px;
-}
-.card2{
-    width: 30%;
-    height: 400px;
-}
-.right-card{}
-.cardA{
-    width: 90%;
+.cards{
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    justify-content:center;
-    align-items: center;
-    margin: 5% 0% 0% 0%;
-    transition: 0.5s;
+    width: 95%;
+    height: 90%;
+    gap: 15px;
 }
-.cardB{
+.cardsA{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    gap: 15px;
+}
+.cardsA-li{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 15px;
+}
+.cardsB{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 35%;
+    gap: 15px;
+}
+.card{
+    background-image: linear-gradient(180deg, #8d87ff8c 0%, #ffbbec 100%);
+    border-radius: 30px;
+}
+.card:hover{
+}
+.card1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.card1 img{
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+}
+.card1 h2{
+    margin: 0% 0% 0% 5%;
+    text-align: center;
+    color: #F1EEE9;
+}
+.card1 p{
+    margin: 5% 0% 0% 5%;
+text-align: center;
+width: 90%;
+color: #F1EEE9;
+}
+.card2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.card2 img{
+    width: 100%;
+}
+.card2 h2{
+    margin: 0% 0% 0% 0%;
+    text-align: center;
+    color: #F1EEE9;
+}
+.card2 p{
+    margin: 6% 0% 0% 5%;
+    text-align: center;
+    width: 90%;
+    color: #F1EEE9;
+}
+.card3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.card3 a{
+    margin: 1% 0% 0% 0%;
+}
+.card3 img{
+    margin:5% 0px 0px 0px;
+    width: 100%;
+}
+.card3 h2{
+    text-align: center;
+    color: #F1EEE9;
+    margin: 0% 0 0 0;
+    font-size: 19px;
+}
+.card3 p{
+margin: 5% 0% 0% 5%;
+text-align: center;
+width: 90%;
+color: #F1EEE9;
+}
+.card4{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+}
+.card4 img{
+    margin: 5% 0px 0px 0px;
+    width: 100%;
+}
+.card4 h2{
+    font-size:22px;
+    text-align: center;
+    color: #F1EEE9;
+    margin: 0% 0 0 0;
+}
+.card4 p{
+margin: 5% 0% 0% 5%;
+text-align: center;
+width: 90%;
+color: #F1EEE9;
+}
+.card5{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.card5 img{
+    height:100%;
+}
+.card5 h2{
+    text-align: center;
+    color: #F1EEE9;
+}
+.card5 p{
+    margin: auto;
+text-align: center;
+width: 70%;
+color: #F1EEE9;
+}
+.card6{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card6 img{
     width: 90%;
-    transition: 0.5s;
 }
-.bigcard{
-    width:95%;
+.card6 h2{
+    text-align: center;
+    color: #F1EEE9;
+    margin: 10% 0 0 0;
+}
+.card6 p{
+margin: 10% 0 0 0;
+text-align: center;
+width: 90%;
+color: #F1EEE9;
+}
+/* اسفل الصفحة */
+footer{
+    width: 100%;
     height: 200px;
-    background-color: #EC994B;
-    border-radius: 20px;
-    transition: 0.5s;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0%;
+    flex-direction: row;
 }
+footer *{
+    color: #F1EEE9;
+}
+.hgr1{
+display: flex;
+align-items: end;
+justify-content:center ;
+}
+.hgr1{
+    margin: 13% 0% 0% 0%;
+}
+.hgr2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 13% 0% 0% 10%;
+    width: 20%;
+}
+.hgr2 p{
+    width: 100%;
+    text-align: center;
+}
+.pages{
+    display: flex;
+    flex-direction:row;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+}
+.pages div{
+    margin: 0px 0px 0px 0px;
+    border-right: 1px #F1EEE9 inset;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    height: 35%;
+}
+.pages div{
+    width: 32%;
+}
+.pages2{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width: 30%;
+    align-items: center;
+}
+.pages2 div{
+    margin: 0px 0px 0px 0px;
+    border-right: 1px #F1EEE9 inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    text-align: center;
+    height: 35%;
+}
+.pages2 div a{
+    width: 100%;
+}
+/* body{background-color: #201d55;} */

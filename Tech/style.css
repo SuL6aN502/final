@@ -73,6 +73,7 @@ align-items: flex-start;
 margin-top:5%;
 border:#15133C solid 7px;
 }
+body{color: white;}
 .Setting{}
 .Company{}
 .History{align-items: center;color: white;}
@@ -105,23 +106,23 @@ body{background-color:#201d55;}
     body{text-align: center;}
     
 
-      .username{
+      /* .username{
         border-top:#73777B solid  1px;
             width:1440px;
             margin-left: 0%;
-        }
+        } */
         main h1:hover{
             color: #EC994B;
             transition: 0.2s ease-in;
         }
-        .username{
+        /* .username{
             border-top:#73777B solid  1px;
                 width:1440px;
                 margin-left: 0%;
-            }
-            .Between{
+            } */
+            /* .Between{
                 border-top:#73777B solid  1px;
                     width:1440px;
                     margin-left: 0%;
-                }
+                } */
                 .Bio-text{color: white;}
