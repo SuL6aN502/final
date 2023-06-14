@@ -13,7 +13,8 @@ body{
     width: 360px;
     height: 620px;
     margin: auto;
-    background-color: #73777B
+    background-color: #EC994B
+
     
     ;
     border-radius: 3px;
@@ -24,7 +25,8 @@ body{
     height: 315px;
     margin: auto;
     border-radius: 10%;
-    background-color: #73777B
+    background-color: #EC994B
+
     
     
     }
@@ -94,4 +96,7 @@ body{
     
     }  
     
-    
+    button a{
+    color: white;
+    text-decoration: none;
+    }
