@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@200&family=Changa:wght@500;600&family=Katibeh&family=Tajawal:wght@500&display=swap');
 body{
 background-color: #15133C
 
 
 ;
-font-family: "roboto", sans-serif;
 
 }
 
@@ -76,7 +76,7 @@ margin-top: 10px;
 
 }
 .para-2 a{
-color:red
+color: #EC994B;
 
 
 }
