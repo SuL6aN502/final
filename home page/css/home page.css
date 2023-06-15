@@ -235,11 +235,11 @@ footer{
     height: 200px;
     background-color: black;
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 0%;
     flex-direction: row;
-}
+    justify-content: space-around;
+} 
 footer *{
     color: #F1EEE9;
 }
@@ -308,3 +308,8 @@ justify-content:center ;
     border-right: 1px #F1EEE9 inset;
     color: #000;
 }
+/* body{background-color: #201d55;} */
+
+.social{display:flex; width:90%;
+    text-align: center;
+    justify-content: space-around;}
