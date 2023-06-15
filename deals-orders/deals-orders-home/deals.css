@@ -20,7 +20,7 @@
         width: 70%;
     }
 
-    .nv2-child a{
+    .nv2-child a {
         text-decoration: none;
         font-size: 20px;
         color: black;
@@ -48,10 +48,12 @@
         font-size: larger;
         font-size: 20px;
     }
-    .card a:hover{
+
+    .card a:hover {
         transition: 300ms;
         color: rgb(236, 153, 75)
     }
+
     /* cards */
 
     .cards {
@@ -98,4 +100,3 @@
         background-color: antiquewhite;
         border-radius: 3%;
     }
- 

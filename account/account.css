@@ -66,17 +66,18 @@ nav a:hover{
     transition: 0.5s;
     color: #000;
 }  */
-.container{
+.container {
     display: flex;
-justify-content:    center;
-align-items: flex-start;
-margin-top:5%;
-border:#15133C solid 7px;
-}  
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 5%;
+    border: #15133C solid 7px;
+}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@200&family=Changa:wght@500;600&family=Katibeh&family=Tajawal:wght@500&display=swap');
-*{
+
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -84,18 +85,19 @@ border:#15133C solid 7px;
 }
 
 /* القائمة العلوية */
-header{
+header {
     position: fixed;
     background-color: #0f0e2b;
     height: 12%;
     width: 100%;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
+
 /* الشعار */
-.logo{
+.logo {
     border-radius: 0%;
     transition: 0.5s;
     width: 108px;
@@ -103,26 +105,31 @@ header{
     left: 7px;
     top: 3px;
 }
+
 /* قائمة الصفحات */
-nav{
+nav {
     width: 50%;
     transition: 0.5s;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #F1EEE9;
     padding: 0% 3% 0% 3%;
     border-left: #EC994B 1px inset;
 }
-.link4{
+
+.link4 {
     border: none;
 }
-nav a:hover{
+
+nav a:hover {
     color: #EC994B;
     transition: 0.5s ease-in;
 }
+
 /* مربع تسجيل الدخول */
-.sign-in{
+.sign-in {
     width: 10%;
     height: 70%;
     background-color: #EC994B;
@@ -132,70 +139,107 @@ nav a:hover{
     align-items: center;
     justify-content: center;
 }
-.sign-in:hover{
+
+.sign-in:hover {
     background-color: #F1EEE9;
     transition: 0.5s;
 }
-.sign-in a{
+
+.sign-in a {
     text-decoration: none;
     color: #F1EEE9;
     font-size: 20px;
     padding: 10% 30%;
 }
-.sign-in a:hover{
+
+.sign-in a:hover {
     transition: 0.5s;
     color: #000;
-} 
+}
 
-.History{text-align:right;color: white;margin-right: 17%;}
-.pfp img{border-radius: 100%;
-border:#15133C;margin-right: 10%;justify-content: start;}
-.user{margin-left: 45.3vw;
-/* background-color: #15133C; */
-color: white;
-display: flex;
-border-radius: 1%;
-justify-content: start;
-margin-left: 41%;}
-.mail{
+.History {
+    text-align: right;
+    color: white;
+    margin-right: 17%;
+}
+
+.pfp img {
+    border-radius: 100%;
+    border: #15133C;
+    margin-right: 10%;
+    justify-content: start;
+}
+
+.user {
+    margin-left: 45.3vw;
+    /* background-color: #15133C; */
+    color: white;
+    display: flex;
+    border-radius: 1%;
+    justify-content: start;
+    margin-left: 41%;
+}
+
+.mail {
     margin-right: -6%;
     /* background-color: #15133C; */
     color: white;
     display: inline-block;
     border-radius: 1%;
-margin-top: 0.5%;
-margin-right:1%;
+    margin-top: 0.5%;
+    margin-right: 1%;
 }
-.Friends{margin-left: 6%;
-/* background-color: #15133C; */
-color: white;}
-body{background-color:rgb(60, 55, 156);}
 
-.Bio{margin-left: 86.6%;
+.Friends {
+    margin-left: 6%;
     /* background-color: #15133C; */
-    color: white;}
-    body{background-color:#201D52;}
-    body{text-align: center;}
-    
+    color: white;
+}
 
-      .username{
-        border-top:#73777B solid  1px;
-            width:1440px;
-            margin-left: 0%;
-        }
-        main h1:hover{
-            color: #EC994B;
-            transition: 0.2s ease-in;
-        }
-        .username{
-            border-top:#73777B solid  1px;
-                width:1440px;
-                margin-left: 0%;
-            }
-            .Between{
-                border-top:#73777B solid  1px;
-                    width:1440px;
-                    margin-left: 0%;
-                }
-                .Bio-text{color: white;text-align: right;
-                margin-right: 0.5%;}
+body {
+    background-color: rgb(60, 55, 156);
+}
+
+.Bio {
+    margin-left: 86.6%;
+    /* background-color: #15133C; */
+    color: white;
+}
+
+body {
+    background-color: #201D52;
+}
+
+body {
+    text-align: center;
+}
+
+
+.username {
+    border-top: #73777B solid 1px;
+    width: 1440px;
+    margin-left: 0%;
+}
+
+main h1:hover {
+    color: #EC994B;
+    transition: 0.2s ease-in;
+}
+
+.username {
+    border-top: #73777B solid 1px;
+    width: 1440px;
+    margin-left: 0%;
+}
+
+.Between {
+    border-top: #73777B solid 1px;
+    width: 1440px;
+    margin-left: 0%;
+}
+
+.Bio-text {
+    color: white;
+    text-align: right;
+    margin-right: 0.5%;
+}

@@ -1,95 +1,106 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@200&family=Changa:wght@500;600&family=Katibeh&family=Tajawal:wght@500&display=swap');
 
 /* الصفحة الرئيسية */
 
 
 /* القسم الاول */
-.sec1{
+.sec1 {
     width: 100%;
     height: 550px;
     display: flex;
     flex-direction: row;
-    justify-content:space-around ;
+    justify-content: space-around;
     align-items: center;
 }
-.sec1 img{
-    width: 80%; 
+
+.sec1 img {
+    width: 80%;
 }
-.sec1 hgroup{
+
+.sec1 hgroup {
     text-align: center;
     margin: 0px 10% 0px 0px;
     transition: 0.5s;
 }
 
-.sec1 hgroup h1{
-font-size: 90px;
-font-family: 'Aref Ruqaa', serif;
+.sec1 hgroup h1 {
+    font-size: 90px;
+    font-family: 'Aref Ruqaa', serif;
 }
+
 /* القسم الثاني */
-.sec2{
+.sec2 {
     width: 100%;
     height: 1270px;
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     align-items: start;
     transition: 0.5s;
 }
-.card a{
+
+.card a {
     width: 100%;
     height: 100%;
 }
-.dsec2{
+
+.dsec2 {
     width: 95%;
     height: 99%;
     background-color: #15133C;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     gap: 40px;
 }
-.cards{
+
+.cards {
     display: flex;
     flex-direction: column;
     width: 95%;
     height: 90%;
     gap: 15px;
 }
-.cardsA{
+
+.cardsA {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 100%;
     gap: 15px;
 }
-.cardsA-li{
+
+.cardsA-li {
     display: flex;
     flex-direction: column;
     width: 30%;
     gap: 15px;
 }
-.cardsB{
+
+.cardsB {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 35%;
     gap: 15px;
 }
-.card{
+
+.card {
     background-image: linear-gradient(180deg, #8d87ff8c 0%, #ffbbec 100%);
     border-radius: 30px;
 }
 
-.card1{
+.card1 {
     width: 50%;
     height: 100%;
     display: flex;
@@ -97,22 +108,26 @@ font-family: 'Aref Ruqaa', serif;
     justify-content: center;
     align-items: start;
 }
-.card1 img{
+
+.card1 img {
     width: 100%;
     margin: 10px 0px 0px 0px;
 }
-.card1 h2{
+
+.card1 h2 {
     margin: 0% 0% 0% 5%;
     text-align: center;
     color: #F1EEE9;
 }
-.card1 p{
+
+.card1 p {
     margin: 5% 0% 0% 5%;
-text-align: center;
-width: 90%;
-color: #F1EEE9;
+    text-align: center;
+    width: 90%;
+    color: #F1EEE9;
 }
-.card2{
+
+.card2 {
     width: 50%;
     height: 100%;
     display: flex;
@@ -120,21 +135,25 @@ color: #F1EEE9;
     justify-content: start;
     align-items: center;
 }
-.card2 img{
+
+.card2 img {
     width: 100%;
 }
-.card2 h2{
+
+.card2 h2 {
     margin: 0% 0% 0% 0%;
     text-align: center;
     color: #F1EEE9;
 }
-.card2 p{
+
+.card2 p {
     margin: 6% 0% 0% 5%;
     text-align: center;
     width: 90%;
     color: #F1EEE9;
 }
-.card3{
+
+.card3 {
     width: 100%;
     height: 100%;
     display: flex;
@@ -142,26 +161,31 @@ color: #F1EEE9;
     justify-content: start;
     align-items: center;
 }
-.card3 a{
+
+.card3 a {
     margin: 1% 0% 0% 0%;
 }
-.card3 img{
-    margin:5% 0px 0px 0px;
+
+.card3 img {
+    margin: 5% 0px 0px 0px;
     width: 100%;
 }
-.card3 h2{
+
+.card3 h2 {
     text-align: center;
     color: #F1EEE9;
     margin: 0% 0 0 0;
     font-size: 19px;
 }
-.card3 p{
-margin: 5% 0% 0% 5%;
-text-align: center;
-width: 90%;
-color: #F1EEE9;
+
+.card3 p {
+    margin: 5% 0% 0% 5%;
+    text-align: center;
+    width: 90%;
+    color: #F1EEE9;
 }
-.card4{
+
+.card4 {
     width: 100%;
     height: 100%;
     display: flex;
@@ -169,23 +193,27 @@ color: #F1EEE9;
     justify-content: center;
     align-items: center;
 }
-.card4 img{
+
+.card4 img {
     margin: 5% 0px 0px 0px;
     width: 100%;
 }
-.card4 h2{
-    font-size:22px;
+
+.card4 h2 {
+    font-size: 22px;
     text-align: center;
     color: #F1EEE9;
     margin: 0% 0 0 0;
 }
-.card4 p{
-margin: 5% 0% 0% 5%;
-text-align: center;
-width: 90%;
-color: #F1EEE9;
+
+.card4 p {
+    margin: 5% 0% 0% 5%;
+    text-align: center;
+    width: 90%;
+    color: #F1EEE9;
 }
-.card5{
+
+.card5 {
     width: 100%;
     height: 100%;
     display: flex;
@@ -193,20 +221,24 @@ color: #F1EEE9;
     justify-content: start;
     align-items: center;
 }
-.card5 img{
-    height:100%;
+
+.card5 img {
+    height: 100%;
 }
-.card5 h2{
+
+.card5 h2 {
     text-align: center;
     color: #F1EEE9;
 }
-.card5 p{
+
+.card5 p {
     margin: auto;
-text-align: center;
-width: 70%;
-color: #F1EEE9;
+    text-align: center;
+    width: 70%;
+    color: #F1EEE9;
 }
-.card6{
+
+.card6 {
     width: 30%;
     height: 100%;
     display: flex;
@@ -214,22 +246,26 @@ color: #F1EEE9;
     justify-content: center;
     align-items: center;
 }
-.card6 img{
+
+.card6 img {
     width: 90%;
 }
-.card6 h2{
+
+.card6 h2 {
     text-align: center;
     color: #F1EEE9;
     margin: 10% 0 0 0;
 }
-.card6 p{
-margin: 10% 0 0 0;
-text-align: center;
-width: 90%;
-color: #F1EEE9;
+
+.card6 p {
+    margin: 10% 0 0 0;
+    text-align: center;
+    width: 90%;
+    color: #F1EEE9;
 }
+
 /* اسفل الصفحة */
-footer{
+footer {
     width: 100%;
     height: 200px;
     background-color: black;
@@ -238,37 +274,44 @@ footer{
     gap: 0%;
     flex-direction: row;
     justify-content: space-around;
-} 
-footer *{
+}
+
+footer * {
     color: #F1EEE9;
 }
-.hgr1{
-display: flex;
-align-items: end;
-justify-content:center ;
+
+.hgr1 {
+    display: flex;
+    align-items: end;
+    justify-content: center;
 }
-.hgr1{
+
+.hgr1 {
     margin: 13% 0% 0% 0%;
 }
-.hgr2{
+
+.hgr2 {
     display: flex;
     align-items: end;
     justify-content: center;
     margin: 13% 0% 0% 10%;
     width: 20%;
 }
-.hgr2 p{
+
+.hgr2 p {
     width: 100%;
     text-align: center;
 }
-.pages{
+
+.pages {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     width: 30%;
     align-items: center;
     justify-content: space-around;
 }
-.pages div{
+
+.pages div {
     margin: 0px 0px 0px 0px;
     border-right: 1px #F1EEE9 inset;
     display: flex;
@@ -277,17 +320,20 @@ justify-content:center ;
     text-align: center;
     height: 35%;
 }
-.pages div{
+
+.pages div {
     width: 32%;
 }
-.pages2{
+
+.pages2 {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-around;
     width: 30%;
     align-items: center;
 }
-.pages2 div{
+
+.pages2 div {
     margin: 0px 0px 0px 0px;
     border-right: 1px #F1EEE9 inset;
     display: flex;
@@ -297,9 +343,10 @@ justify-content:center ;
     width: 25%;
     text-align: center;
     height: 35%;
-    
+
 }
-.div1{
+
+.div1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -307,11 +354,14 @@ justify-content:center ;
     border-right: 1px #F1EEE9 inset;
     color: #000;
 }
+
 /* body{background-color: #201d55;} */
 
-.social{display:flex; width:90%;
+.social {
+    display: flex;
+    width: 90%;
     text-align: center;
-    justify-content: space-around;}
-    .pf{
+    justify-content: space-around;
+}
 
-    }
+.pf {}
